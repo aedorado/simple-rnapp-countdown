@@ -10,6 +10,7 @@
 import React from 'react';
 // import YellowBox from 'react-native';
 import EventList from './EventList';
+import StackNavigator from 'react-navigation';
 
 // YellowBox.ignoreWarnings([
 //   'Warning: Component will mount is deprecated',
@@ -23,6 +24,11 @@ import EventList from './EventList';
 //     'Shake or press menu button for dev menu',
 // });
 
+export default StackNavigator({
+  list: {
+    screen: EventList
+  }
+});
 
 export default class App extends React.Component {
   render() {

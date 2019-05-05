@@ -70,7 +70,7 @@ export default function EventCard({ event }) {
     hours,
     minutes,
     seconds,
-  } = getCountdownParts(event.date);
+  } = getCountdownParts(event.item.date);
 
   return (
     <View style={styles.card}>
