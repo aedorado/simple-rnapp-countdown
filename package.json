@@ -8,10 +8,16 @@
     "android-windows": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && react-native run-android"
   },
   "dependencies": {
+    "@babel/core": "^7.4.4",
     "moment": "^2.24.0",
     "react": "16.6.3",
     "react-moment": "^0.8.4",
-    "react-native": "0.58.4"
+    "react-native": "0.58.4",
+    "react-native-gesture-handler": "^1.2.1",
+    "react-navigation": "^3.9.1",
+    "prop-types": "15.7.2",
+    "react-native-action-button": "2.8.5",
+    "react-native-modal-datetime-picker": "7.4.0"
   },
   "devDependencies": {
     "babel-core": "7.0.0-bridge.0",
